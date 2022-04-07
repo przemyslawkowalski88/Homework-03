@@ -90,14 +90,13 @@ img{
 }
 
 .third-header {
-  font-weight: 500, Medium;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1,187;
+  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--family-color)
+  color: var(--font-family);
 }
-
 
 /*----END-COMPONENTS-----*/
 
@@ -270,14 +269,6 @@ margin-bottom: 50px;
 margin-top:94;
 text-align: center;
 }
-.staff-item {
-  box-shadow: 0px 2px 1px 0px #00000033;
-  box-shadow: 0px 1px 1px 0px #00000024;
-  box-shadow: 0px 1px 3px 0px #0000001f;
-  height: 368px;
-  width: 270px;
-  background: #FFFFFF;
-}
 
 .staff-list{
   display: flex;
@@ -289,14 +280,22 @@ text-align: center;
   margin-bottom: 10px;
   text-align: center;
 }
+
+.staff-item {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  height: 368px;
+  width: 270px;
+  background: #FFFFFF;
+}
+
 .third-header .staff {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .staff-p {
-  font-family: Roboto;
-  font-style: normal;
   padding-bottom: 168px;
   margin: 0;
   font-weight: normal;
