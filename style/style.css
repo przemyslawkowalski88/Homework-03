@@ -418,6 +418,24 @@ text-align: center;
 }
 
 /*--PORTFOLIO-PROJECT--*/
+.project-list{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project-list-item{
+width: 370px;
+height: 404px;
+background: var(--white-color);
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+  }
+
+.project-list-item:not(:last-child){
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
 
 .third-header-project{
   width: 322px;
@@ -438,22 +456,5 @@ text-align: center;
   color: var(--gray-color);
   margin: 0px 24px 20px 24px;
   }
-  .project-list{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-  }
-.project-list-item{
-  width: 370px;
-  height: 404px;
-  background: var(--white-color);
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
-    }
 
-  .project-list-item:not(:last-child){
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
   /*--END-PORTFOLIO-PROJECT--*/
