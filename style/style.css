@@ -7,6 +7,7 @@
   --white-color: #FFFFFF;
   --creamy-color: #F5F4FA;
   --graphite-color: #2f303a;
+  --border-color: #ececec;
 }
 
 body {
@@ -79,7 +80,7 @@ img{
 .footer-address:focus,
 .navigation-list-link:focus,
 .navigation-list-link:hover{
-  color: #2196f3;
+  color: var(--main-color)
 }
 
 .secondary-header {
@@ -104,7 +105,7 @@ img{
 
 /*------HEDER------*/
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-color);
 }
 .header .container{
   display: flex;
@@ -190,7 +191,7 @@ img{
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--graphite-color);
 }
 
 .main-button{
@@ -338,7 +339,7 @@ text-align: center;
 }
 
 .footer {
-  background: #2f303a;
+  background: var(--graphite-color);
 }
 
 .navigation-logo-footer {
@@ -401,7 +402,7 @@ text-align: center;
 
 .model-btn-portfolio:hover,
 .model-btn-portfolio:focus{
-    background: var(--main-color)
+    background: var(--main-color);
     /* shadow-middle */
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -443,6 +444,14 @@ text-align: center;
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
+  }
+.project-list-item{
+  width: 370px;
+  height: 404px;
+  background: var(--white-color)
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  
   }
 
   .project-list-item:not(:last-child){
