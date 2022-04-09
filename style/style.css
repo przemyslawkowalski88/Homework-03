@@ -437,7 +437,6 @@ text-align: center;
   letter-spacing: 0.03em;
   color: var(--gray-color);
   margin: 0px 24px 20px 24px;
-  padding-top: 4px;
   }
   .project-list{
     display: flex;
@@ -448,11 +447,10 @@ text-align: center;
 .project-list-item{
   width: 370px;
   height: 404px;
-  background: var(--white-color)
+  background: var(--white-color);
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
-  
-  }
+    }
 
   .project-list-item:not(:last-child){
     margin-right: 30px;
